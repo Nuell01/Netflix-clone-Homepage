@@ -1,0 +1,744 @@
+body{
+    padding: 0;
+    margin: 0;
+   overflow-x: hidden;
+   background:#000;
+}
+.first-section{
+    
+    min-height: 100vh;
+    z-index: 0;
+    margin: 0;
+    
+
+    
+
+}
+.first-section img{
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+ header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30%;
+    position: absolute;
+    top: 0%;
+}
+header h1{
+    color: red;
+    font-size: 2.5rem;
+      font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+.main{
+  width: 100%;
+  max-height: 300px;
+    margin-top: 8%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    
+
+
+    
+}
+.main h2{
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 56px;
+font-weight: 900;
+line-height: 70px;
+  color: #fff;
+}
+
+.main h4{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: normal;
+color: #fff;
+
+   
+}
+.ready{
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #ffffff;
+}
+input{
+    width: 20%;
+    padding: 1.4%;
+    height: 15%;
+    outline: none;
+    border: 1px solid #111;
+    border-radius: 4px;
+    margin-right: 2px;
+    background-color: #0f0f0f49;
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+.get-started{
+    width: 200px;
+   min-height:50px ;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+   padding: 1%;
+    background-color: #d40000;
+    color: #fff;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 24px;
+
+}
+.get-started i{
+  font-size: 1rem;
+  
+}
+.sign-in{
+    width: 8%;
+   height:7% ;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+   padding: 0.7%;
+    background-color: #d40000;
+    color: #fff;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 14px;
+}
+button:hover{
+    background-color: #b90000;
+}
+/*carousel section*/
+.hero{
+   width: 100%;
+   min-height: 70vh;
+   position: relative;
+   background: #000;
+   border-top:8px solid #ff0022b4;
+   border-top-left-radius: 100% 40px;
+   border-top-right-radius: 100% 40px;
+   z-index: 2;
+   overflow: hidden;
+  margin: 0;
+
+}
+.position{
+  width: 70%;
+  height: 100px;
+  background: radial-gradient(ellipse at center, rgba(0, 140, 255,0.6),
+                              rgba(0, 140, 255, 0.25), transparent 70%);
+  position: absolute;
+  left: 15%;
+  bottom: 84%;
+  top: -3%;
+  border-radius: 50%;
+   z-index: 0;
+
+  
+}
+
+
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 75%;
+  overflow: hidden;
+  padding: 10% 10%;
+  margin-top: 20px;
+  
+}
+.carousel-container h3{
+  position: absolute;
+  top: 10%;
+  color: #fff;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: normal;
+margin: 4px;
+}
+.carousel {
+  display: flex;
+  gap: 40px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.carousel img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.carousel img:hover {
+  transform: scale(1.05);
+}
+
+.arrow {
+  position: absolute;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  font-size: 40px;
+  padding: 10px;
+  cursor: pointer;
+  height: 100px;
+}
+
+.left {
+  left: 10%;
+  border-radius: 4px;
+}
+
+.right {
+  right: 10%;
+  border-radius: 4px;
+}
+
+
+/*more reasons to join section*/
+.contents{
+  width: 100%;
+  min-height: 70vh;
+  background-color: #000;
+  padding: 2% 10%;
+
+}
+
+.contents h3{
+  color: #fff;
+   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: normal;
+
+ 
+  
+}
+.reasons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   gap: 16px;
+  width: 80%;
+}
+.box{
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(144deg, #1D1932, #1F1323);
+  padding: 2%;
+  border-radius: 20px;
+}
+.box h4{
+  font-size: 2rem;
+      font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+.box p{
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #908e9b;
+}
+/*faqs section*/
+.accordion{
+  width: 100%;
+  max-width: 1000px;
+  min-height: 70vh;
+  background-color: #000;
+  margin: 2rem auto;
+  
+}
+.title{
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: normal;
+color: #ffffff;
+
+}
+.accordion-item{
+  background-color: #2D2D2D;
+  color: #fff;
+  margin: 1rem 0;
+  
+  
+}
+
+.accordion-item-header{
+  padding: 0.5rem 3rem 0.5rem 1rem; /*top right bottom left*/
+  min-height: 3.5rem;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.accordion-item-header:hover{
+  background-color: #414141;
+}
+.accordion-item-header::after{
+  content: "\002B"; /*entity code for + symbol*/
+  font-size: 3rem;
+  position: absolute;
+  right: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+.accordion-item-header.active::after{
+  
+  transform: rotate(-45deg);
+}
+.accordion-item-body{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+ 
+}
+.accordion-item-body-content{
+ padding: 1rem;
+ 
+ border-top: 2px solid #00020c;
+ font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+color: rgb(255, 255, 255);
+ 
+}
+/*.accordion-item-header.active + .accordion-item-body{ 
+  max-height: 1000px;
+}*/
+
+
+.redo-email{
+  width: 100%;
+  max-height: 300px;
+  text-align: center;
+  padding: 2% 0%;
+  color: #fff;
+}
+.redo-email input{
+  width: 50%;
+  padding: 2% ;
+  color: #fff;
+  background-color: #1d1d1d;
+  border: 1px solid #414141;
+}
+.redo-email h5{
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+.footer{
+  width: 90%;
+  min-height: 90%;
+  padding: 2% 2%;
+ font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+
+}
+.footer a{
+  color: #ffffffb3;
+}
+.footer p{
+  color: #ffffffb3;
+}
+.footer-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.CAPTCHA a{
+  color: #0A4BD5;
+}
+.footer select{
+  width: 130px;
+  padding: 1%;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #414141;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+}
+/* Responsive Media Queries */
+
+/* Tablet and below (768px) */
+@media screen and (max-width: 768px) {
+  header {
+    gap: 10%;
+    padding: 0 5%;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .sign-in {
+    width: 15%;
+    min-width: 80px;
+    height: auto;
+    padding: 8px 12px;
+  }
+
+  .main {
+    top: 15%;
+    left: 0;
+    padding: 0 5%;
+  }
+
+  .main h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .main h4 {
+    font-size: 18px;
+  }
+
+  .ready {
+    font-size: 14px;
+  }
+
+  input {
+    width: 40%;
+    padding: 3%;
+  }
+
+  .get-started {
+    width: 160px;
+    min-height: 45px;
+    font-size: 20px;
+    padding: 2%;
+  }
+
+  .carousel-container {
+    width: 90%;
+    padding: 15% 5%;
+  }
+
+  .carousel-container h3 {
+    font-size: 20px;
+  }
+
+  .carousel img {
+    width: 180px;
+    height: 220px;
+  }
+
+  .arrow {
+    font-size: 32px;
+    padding: 8px;
+    height: 80px;
+  }
+
+  .left {
+    left: 5%;
+  }
+
+  .right {
+    right: 5%;
+  }
+
+  .reasons {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    min-height: 300px;
+  }
+
+  .box h4 {
+    font-size: 1.5rem;
+  }
+
+  .accordion {
+    padding: 0 5%;
+  }
+
+  .accordion-item-header {
+    font-size: 20px;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+  }
+
+  .accordion-item-header::after {
+    font-size: 2.5rem;
+  }
+
+  .accordion-item-body-content {
+    font-size: 18px;
+  }
+
+  .redo-email input {
+    width: 60%;
+  }
+
+  .footer-boxes {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer-box {
+    width: 45%;
+  }
+}
+
+/* Mobile (480px and below) */
+@media screen and (max-width: 480px) {
+  header {
+    gap: 5%;
+    flex-direction: row;
+    padding: 0 3%;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .sign-in {
+    width: auto;
+    min-width: 70px;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .main {
+    top: 20%;
+    padding: 0 3%;
+  }
+
+  .main h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .main h4 {
+    font-size: 16px;
+  }
+
+  .ready {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  input {
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .get-started {
+    width: 100%;
+    max-width: 300px;
+    min-height: 48px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .carousel-container {
+    width: 100%;
+    padding: 20% 0;
+  }
+
+  .carousel-container h3 {
+    font-size: 18px;
+    left: 5%;
+  }
+
+  .carousel {
+    gap: 20px;
+    padding: 0 5%;
+  }
+
+  .carousel img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .arrow {
+    font-size: 28px;
+    padding: 6px;
+    height: 60px;
+    width: 40px;
+  }
+
+  .left {
+    left: 2%;
+  }
+
+  .right {
+    right: 2%;
+  }
+
+  .contents {
+    padding: 5% 5%;
+  }
+
+  .contents h3 {
+    font-size: 20px;
+  }
+
+  .reasons {
+    width: 100%;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    padding: 5%;
+  }
+
+  .box h4 {
+    font-size: 1.3rem;
+  }
+
+  .box p {
+    font-size: 0.9rem;
+  }
+
+  .accordion {
+    padding: 0 3%;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .accordion-item-header {
+    font-size: 16px;
+    padding: 0.5rem 2rem 0.5rem 0.8rem;
+    min-height: 3rem;
+  }
+
+  .accordion-item-header::after {
+    font-size: 2rem;
+    right: 0.5rem;
+  }
+
+  .accordion-item-body-content {
+    font-size: 16px;
+    padding: 0.8rem;
+  }
+
+  .redo-email h5 {
+    font-size: 14px;
+    padding: 0 3%;
+  }
+
+  .redo-email input {
+    width: 80%;
+    padding: 4%;
+    margin-bottom: 10px;
+  }
+
+  .redo-email .get-started {
+    width: 80%;
+  }
+
+  .footer {
+    padding: 5% 3%;
+  }
+
+  .footer-boxes {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-box {
+    width: 100%;
+  }
+
+  .footer select {
+    width: 110px;
+    font-size: 14px;
+  }
+}
+
+/* Very small mobile devices (360px and below) */
+@media screen and (max-width: 360px) {
+  header h1 {
+    font-size: 1.3rem;
+  }
+
+  .main h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .main h4 {
+    font-size: 14px;
+  }
+
+  .carousel img {
+    width: 130px;
+    height: 180px;
+  }
+
+  .box h4 {
+    font-size: 1.2rem;
+  }
+
+  .accordion-item-header {
+    font-size: 14px;
+  }
+
+  .accordion-item-body-content {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
